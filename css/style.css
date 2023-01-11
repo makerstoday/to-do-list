@@ -1,0 +1,63 @@
+/* geral */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: helvetica;
+    color: rgb(200, 198, 194);
+    box-sizing: border-box;
+}
+/*  imagem de fundo*/
+body{
+    background-image: url("../img/tree-gf34f02f40_640.jpg");
+    background-position: center;
+    background-size: cover;
+}
+ 
+button{
+    background-color: rgb(27, 72, 7);
+    color: antiquewhite;
+    border: 2px solid rgb(43, 249, 74);
+    padding: .3rem .6rem;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    transition: 0.4s;
+}
+button:hover{
+    background-color: rgb(250, 250, 25);
+    color:rgb(43, 249, 74)
+}
+button:hover>i{
+    color:rgb(43,249,74);
+}
+button i{
+    color: antiquewhite;
+    font-weight:bolder;
+    pointer-events: none;
+}
+input,
+select{
+    padding: 0.25rem 0.5rem;
+}
+hilde{
+    display: none;
+}
+
+/* header- cabeçalho*/
+
+.todo-container{
+max-width: 450px;
+margin: 3rem auto;
+background-color: rgba(240, 248, 255, 0.172);
+padding: 1.5rem;
+border-radius: 15px;
+
+}
+
+.todo-container header{
+    text-align: center;
+    padding: 0 1rem 1rem;
+    border-bottom: 1px solid #ccc;
+}
