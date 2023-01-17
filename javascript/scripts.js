@@ -17,7 +17,5 @@ const cancelEditBtn = document.querySelector("#cancel-edit-btn");
 
 //eventos//
 todoForm.addEventListener("submit", (e) => {
-    e.preventDeFault();
-
-    console.log("enviou form");
-});
+        e.preventDefault();console.log("enviou form");
+    });

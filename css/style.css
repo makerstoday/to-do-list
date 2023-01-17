@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
     font-family: helvetica;
-    color: rgb(200, 198, 194);
+    color: rgb(19, 18, 17);
     box-sizing: border-box;
 }
 /*  imagem de fundo*/
@@ -40,8 +40,9 @@ button i{
 input,
 select{
     padding: 0.25rem 0.5rem;
+    
 }
-hilde{
+.hide {
     display: none;
 }
 
@@ -53,6 +54,7 @@ margin: 3rem auto;
 background-color: rgba(240, 248, 255, 0.172);
 padding: 1.5rem;
 border-radius: 15px;
+
 
 }
 
@@ -90,7 +92,7 @@ border-bottom: 1px solid #ccc;
     display: flex;
 }
 #toolbar h4{
-    margin-bottom: 5rem;
+    margin-bottom: .5rem;
 
 }
 #search{
@@ -103,6 +105,7 @@ border-bottom: 1px solid #ccc;
 }
 #search form{
 display: flex;
+
 }
 #search input{
     width: 100%;
@@ -113,9 +116,11 @@ display: flex;
     width: 35%;
     display: flex;
     flex-direction: column;
+    
 }
 #filter select{
     flex: 1;
+    
 }
 
 /*to do list*/
