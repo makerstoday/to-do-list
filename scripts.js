@@ -10,12 +10,16 @@ const cancelEditBtn = document.querySelector("#cancel-edit-btn");
 
 //funções//
 
+form.addEventListener("active", (event) => {
+    event.preventDefault();
 
+    //verificar se o nome é valido
+    if (todoInput.value === ("")){
+        alert("Por favor escreva um nome valido!!");
+        return;
+    }
 
-
+    });
 
 
 //eventos//
-todoForm.addEventListener("submit", (e) => {
-        e.preventDefault();console.log('enviou form')
-    });

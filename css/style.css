@@ -11,6 +11,8 @@ body{
     background-image: url("../img/tree-gf34f02f40_640.jpg");
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
+    
 }
  
 button{
